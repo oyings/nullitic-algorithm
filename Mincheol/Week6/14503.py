@@ -56,7 +56,7 @@ while True:
     ny = y + dy[nd]
 
     # 유효 범위고, 벽이 아니면 후진
-    if 0<= nx <= n and 0 <= ny <= m and room[nx][ny] != 1:
+    if 0<= nx <= n-1 and 0 <= ny <= m-1 and room[nx][ny] != 1:
         x, y = nx, ny
         continue
 
