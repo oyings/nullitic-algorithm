@@ -1,3 +1,4 @@
+// 1780 종이의 개수
 #include <iostream>
 
 int N, minus_one, zero, one;

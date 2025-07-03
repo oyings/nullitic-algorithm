@@ -1,3 +1,4 @@
+// 1932 정수 삼각형
 #include <iostream>
 #include <vector>
 #include <algorithm>
